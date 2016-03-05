@@ -1,0 +1,21 @@
+[
+
+	{
+		"type": "expanded",
+		"title": "Home",
+		"articles": ["articles/home"]
+	},
+	
+	{
+		"type": "excerps",
+		"title": "Blog",
+		"articles": ["articles/blog/post-0001"]
+	},
+	
+	{
+		"type": "gh-projects",
+		"title": "Projects",
+		"articles": []
+	}
+
+]
