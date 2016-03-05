@@ -1,2 +1,5 @@
-# formix-org
-My Client Side File Only CMS
+# www
+
+[formix.org](http://formix.org) Client Side File Only CMS
+
+Content Copyright (c) 2016 Consultant formix.org enr.
