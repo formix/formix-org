@@ -88,6 +88,17 @@ body {
     color: white;
 }
 
+.title h1 {
+	margin-top: 0.40em;
+	margin-bottom: 0.1em;
+}
+
+.title h2 {
+	font-size: 1.2em;
+	margin-top: 0.1em;
+	margin-bottom: 0.26em;
+}
+
 /* ==============
     MOBILE: Menu
    ============== */
