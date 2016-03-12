@@ -1,21 +1,24 @@
 [
 
 	{
+		"id":"home",
+		"text": "Home",
 		"type": "expanded",
-		"title": "Home",
 		"articles": ["articles/home"]
 	},
 	
 	{
-		"type": "excerps",
-		"title": "Blog",
-		"articles": ["articles/blog/post-0001"]
+		"id":"projects",
+		"text": "Projects",
+		"type": "excerpt",
+		"articles": []
 	},
 	
 	{
-		"type": "gh-projects",
-		"title": "Projects",
-		"articles": []
+		"id":"blog",
+		"text": "Blog",
+		"type": "excerpt",
+		"articles": ["articles/blog/post-0001"]
 	}
 
 ]

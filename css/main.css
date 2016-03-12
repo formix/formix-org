@@ -70,18 +70,18 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #e44d26;
+    border-bottom: 20px solid #007AA1;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #e44d26;
+    border-top: 20px solid #007AA1;
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #f16529;
+    background: #0094C6;
 }
 
 .title {
@@ -113,13 +113,19 @@ nav a {
     display: block;
     margin-bottom: 10px;
     padding: 15px 0;
+    border-radius: 3px;    
 
     text-align: center;
     text-decoration: none;
     font-weight: bold;
 
     color: white;
-    background: #e44d26;
+    background: #007AA1;
+}
+
+nav a.selected {
+    background: #0094C6;
+    text-decoration: underline;
 }
 
 nav a:hover,
@@ -189,11 +195,16 @@ nav a:hover {
     INTERMEDIATE: Menu
    ==================== */
 
+    nav {
+        padding-top: 18px;
+    }
+
     nav a {
+        border-radius: 3px;
         float: left;
         width: 27%;
         margin: 0 1.7%;
-        padding: 25px 2%;
+        padding: 6px 2%;
         margin-bottom: 0;
     }
 
