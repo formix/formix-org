@@ -113,18 +113,17 @@ nav a {
     display: block;
     margin-bottom: 10px;
     padding: 15px 0;
-    border-radius: 3px;    
 
     text-align: center;
     text-decoration: none;
     font-weight: bold;
 
     color: white;
-    background: #007AA1;
+    background: #004C63;
 }
 
 nav a.selected {
-    background: #0094C6;
+    background: #007AA1;
     text-decoration: underline;
 }
 
@@ -200,12 +199,11 @@ nav a:hover {
     }
 
     nav a {
-        border-radius: 3px;
         float: left;
         width: 27%;
         margin: 0 1.7%;
         padding: 6px 2%;
-        margin-bottom: 0;
+        margin-bottom: 0;        
     }
 
     nav li:first-child a {
@@ -255,6 +253,10 @@ nav a:hover {
         width: 38%;
     }
 
+    nav a {
+        border-radius: 0px;
+    }
+
 /* ============
     WIDE: Main
    ============ */
@@ -280,6 +282,11 @@ nav a:hover {
         width: 1026px; /* 1140px - 10% for margins */
         margin: 0 auto;
     }
+
+
+    nav a {
+        border-radius: 3px;    
+    }    
 }
 
 /* ==========================================================================
